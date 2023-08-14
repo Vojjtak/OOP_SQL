@@ -107,8 +107,7 @@ class AboutDialog(QMessageBox):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("About")
-        content = """This app was created during the course "The Python Mega Course.
-        Feel free to modify."""
+        content = """DDD"""
         self.setText(content)
 
 
